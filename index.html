@@ -24,95 +24,108 @@
       <li><a href="#contact">Contact</a></li>
     </ul>
     <a class="nav__logo" href="#top" aria-label="The White Gate Inn"><img src="assets/images/logo-nav.svg" alt="The White Gate Inn"></a>
-    <a class="btn nav__book" href="#contact">Book Now</a>
-    <button class="nav__toggle" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="nav-links"><span></span><span></span><span></span></button>
+    <a class="btn btn--ghost nav__book" href="#contact">Book Now</a>
+    <button class="nav__toggle" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="nav-links"><span></span><span></span></button>
   </header>
 
   <main>
     <section class="hero">
       <img class="hero__img" src="assets/images/hero.jpg" alt="The White Gate Inn, a restored 1907 church, with its white porch and flower beds">
-      <div class="hero__caption">
-        <p class="eyebrow">Boutique lodging in Spirit Lake</p>
+      <div class="hero__content">
+        <p class="label">Boutique lodging in Spirit Lake</p>
+        <h1>Experience History Reimagined</h1>
         <p class="script">A restored landmark stay.</p>
+      </div>
+      <div class="hero__bar">
+        <span>Spirit Lake, Idaho</span>
+        <span>Built 1907</span>
+        <a href="#welcome">Scroll</a>
       </div>
     </section>
 
-    <section class="intro">
-      <h1>Experience History Reimagined</h1>
-      <p class="intro__kicker">A historic church transformed into boutique lodging in the heart of Spirit Lake, Idaho</p>
-      <p class="lede">Step inside a place where history, architecture, and hospitality come together. Originally built in 1907 as St. Joseph’s Catholic Church, our beautifully restored bed and breakfast offers a one-of-a-kind stay unlike anywhere else in North Idaho.</p>
-    </section>
-
-    <section class="band band--white">
-      <div class="narrow">
-        <h2>Historic. Architectural. Renewed.</h2>
+    <section class="welcome" id="welcome">
+      <p class="label" data-reveal>Welcome</p>
+      <h2 data-reveal>A historic church transformed into boutique lodging in the heart of Spirit Lake, Idaho.</h2>
+      <div class="welcome__cols" data-reveal>
+        <p>Step inside a place where history, architecture, and hospitality come together. Originally built in 1907 as St. Joseph’s Catholic Church, our beautifully restored bed and breakfast offers a one-of-a-kind stay unlike anywhere else in North Idaho.</p>
         <p>Thoughtfully renovated while preserving its original craftsmanship, each guest room and suite features soaring ceilings, restored woodwork, private bathrooms, cozy gas fireplaces, and modern comforts. Whether you’re planning a romantic getaway, a relaxing weekend at the lake, or exploring North Idaho, you’ll experience the warmth of boutique hospitality within a landmark that has welcomed generations.</p>
         <p>Located in downtown Spirit Lake, you’re just a short walk from the lake, local shops, restaurants, and the charm of one of Idaho’s most welcoming small towns.</p>
       </div>
+      <p class="welcome__sign" data-reveal>Historic. Architectural. Renewed.</p>
     </section>
 
     <section class="story" id="our-story">
-      <div class="story__text">
-        <p class="script">More Than a Place to Stay</p>
-        <h2>A Piece of Spirit Lake History</h2>
-        <p>Originally built in 1907 as St. Joseph’s Catholic Church, this landmark has been thoughtfully restored into a one-of-a-kind boutique bed and breakfast. Every detail of the renovation was completed with care to preserve the building’s remarkable craftsmanship—from the original wood moldings and soaring ceilings to the architectural character that has welcomed generations.</p>
-        <p>Today, guests experience the perfect blend of historic charm, modern comfort, and genuine hospitality in a place where the past has been beautifully renewed. Whether you’re visiting for a romantic getaway, a weekend at the lake, or simply looking for unique lodging in North Idaho, you’ll find a stay unlike any other.</p>
-        <a class="link" href="#our-story">Learn More About Our History →</a>
+      <div class="story__img"><img src="assets/images/hero.jpg" alt="The inn’s front steps and flower beds" loading="lazy"></div>
+      <div class="story__panel">
+        <p class="label" data-reveal>More than a place to stay</p>
+        <h2 data-reveal>A Piece of Spirit Lake History</h2>
+        <p data-reveal>Originally built in 1907 as St. Joseph’s Catholic Church, this landmark has been thoughtfully restored into a one-of-a-kind boutique bed and breakfast. Every detail of the renovation was completed with care to preserve the building’s remarkable craftsmanship—from the original wood moldings and soaring ceilings to the architectural character that has welcomed generations.</p>
+        <p data-reveal>Today, guests experience the perfect blend of historic charm, modern comfort, and genuine hospitality in a place where the past has been beautifully renewed. Whether you’re visiting for a romantic getaway, a weekend at the lake, or simply looking for unique lodging in North Idaho, you’ll find a stay unlike any other.</p>
+        <ul class="rows" data-reveal>
+          <li><a href="#our-story">Learn more about our history</a></li>
+          <li><a href="#rooms">Rooms &amp; suites</a></li>
+          <li><a href="#amenities">Amenities</a></li>
+          <li><a href="#nearby">Explore Spirit Lake</a></li>
+        </ul>
       </div>
-      <div class="story__img ph" role="img" aria-label="Photo of the inn coming soon"></div>
     </section>
 
-    <section class="band band--white rooms" id="rooms">
-      <div class="narrow">
-        <p class="script">Stay With Us</p>
-        <h2>Boutique Rooms Designed for Comfort</h2>
-        <p>Choose from four beautifully appointed guest rooms or two spacious suites, each thoughtfully designed to honor the building’s history while offering the comforts of modern lodging.</p>
+    <section class="rooms" id="rooms">
+      <div class="rooms__head">
+        <div>
+          <p class="label" data-reveal>Stay with us</p>
+          <h2 data-reveal>Boutique Rooms Designed for Comfort</h2>
+        </div>
+        <div class="rooms__copy" data-reveal>
+          <p>Choose from four beautifully appointed guest rooms or two spacious suites, each thoughtfully designed to honor the building’s history while offering the comforts of modern lodging.</p>
+          <p>Our guest rooms provide a peaceful retreat for couples, while our spacious suites feature a full kitchen, separate bedroom, and living area—perfect for families or extended stays. Whether you’re planning a quiet weekend or exploring all that North Idaho has to offer, you’ll enjoy a comfortable stay surrounded by timeless architecture and warm hospitality.</p>
+          <a class="arrow" href="#rooms">Explore our rooms &amp; suites</a>
+        </div>
       </div>
       <div class="rooms__grid">
-        <div class="ph" role="img" aria-label="Guest room photo coming soon"></div>
-        <div class="ph" role="img" aria-label="Guest room photo coming soon"></div>
-        <div class="ph" role="img" aria-label="Suite photo coming soon"></div>
-        <div class="ph" role="img" aria-label="Suite photo coming soon"></div>
-      </div>
-      <div class="narrow">
-        <p>Our guest rooms provide a peaceful retreat for couples, while our spacious suites feature a full kitchen, separate bedroom, and living area—perfect for families or extended stays. Whether you’re planning a quiet weekend or exploring all that North Idaho has to offer, you’ll enjoy a comfortable stay surrounded by timeless architecture and warm hospitality.</p>
-        <a class="link" href="#rooms">Explore Our Rooms &amp; Suites →</a>
+        <figure data-reveal>
+          <div class="ph" role="img" aria-label="Guest room photography coming soon"><span>Photography coming soon</span></div>
+          <figcaption><em>Guest Rooms</em><span>Four rooms</span></figcaption>
+        </figure>
+        <figure data-reveal>
+          <div class="ph" role="img" aria-label="Suite photography coming soon"><span>Photography coming soon</span></div>
+          <figcaption><em>Suites</em><span>Two suites</span></figcaption>
+        </figure>
       </div>
     </section>
 
-    <section class="band experience" id="amenities">
-      <div class="narrow">
-        <p class="script">The Experience</p>
-        <h2>Where History, Architecture &amp; Hospitality Meet</h2>
-        <p>Staying here is about more than a comfortable night’s sleep—it’s about experiencing a place with a story. Wake each morning to a traditional homemade breakfast before relaxing in one of our inviting common spaces or setting out to explore Spirit Lake.</p>
-      </div>
-      <div class="experience__row">
-        <img src="assets/images/porch.jpg" alt="A rocking chair and potted geraniums on the inn’s front porch" loading="lazy">
-        <ul class="experience__list">
-          <li>Historic structure, restored craftsmanship, and original character throughout the inn.</li>
-          <li>A complimentary homemade breakfast served buffet style each morning.</li>
-          <li>Enjoy the downstairs parlor, upstairs guest lounge, and quiet corners made for lingering.</li>
-          <li>Thoughtful touches and a relaxed welcome make each stay feel memorable.</li>
-        </ul>
+    <section class="amenities" id="amenities">
+      <div class="amenities__img"><img src="assets/images/porch.jpg" alt="A rocking chair and potted geraniums on the inn’s front porch" loading="lazy"></div>
+      <div class="amenities__text">
+        <p class="label" data-reveal>The experience</p>
+        <h2 data-reveal>Where History, Architecture &amp; Hospitality Meet</h2>
+        <p data-reveal>Staying here is about more than a comfortable night’s sleep—it’s about experiencing a place with a story. Wake each morning to a traditional homemade breakfast before relaxing in one of our inviting common spaces or setting out to explore Spirit Lake.</p>
+        <dl class="specs" data-reveal>
+          <div><dt>Character</dt><dd>Historic structure, restored craftsmanship, and original character throughout the inn.</dd></div>
+          <div><dt>Breakfast</dt><dd>A complimentary homemade breakfast served buffet style each morning.</dd></div>
+          <div><dt>Common spaces</dt><dd>Enjoy the downstairs parlor, upstairs guest lounge, and quiet corners made for lingering.</dd></div>
+          <div><dt>Welcome</dt><dd>Thoughtful touches and a relaxed welcome make each stay feel memorable.</dd></div>
+        </dl>
       </div>
     </section>
 
     <section class="nearby" id="nearby">
       <img class="nearby__img" src="assets/images/lake.jpg" alt="A blue mountain lake ringed with evergreen forest" loading="lazy">
       <div class="nearby__text">
-        <p class="script">Explore Spirit Lake</p>
-        <h2>Discover the Best of North Idaho</h2>
-        <p>Located in the heart of downtown Spirit Lake, our bed and breakfast places you within walking distance of local restaurants, shops, parks, and the beautiful shoreline of Spirit Lake. Spend the day boating, fishing, hiking, or simply enjoying the charm of this friendly lakeside community. Coeur d’Alene, Silverwood Theme Park, scenic golf courses, and countless outdoor recreation opportunities are all just a short drive away.</p>
-        <a class="link" href="#nearby">Explore the Area →</a>
+        <p class="label" data-reveal>Explore Spirit Lake</p>
+        <h2 data-reveal>Discover the Best of North Idaho</h2>
+        <p data-reveal>Located in the heart of downtown Spirit Lake, our bed and breakfast places you within walking distance of local restaurants, shops, parks, and the beautiful shoreline of Spirit Lake. Spend the day boating, fishing, hiking, or simply enjoying the charm of this friendly lakeside community. Coeur d’Alene, Silverwood Theme Park, scenic golf courses, and countless outdoor recreation opportunities are all just a short drive away.</p>
+        <a class="arrow" href="#nearby" data-reveal>Explore the area</a>
       </div>
     </section>
 
-    <section class="band faq" id="faq">
-      <div class="narrow">
-        <p class="script">Frequently Asked Questions</p>
-        <h2>Planning Your Stay</h2>
+    <section class="faq" id="faq">
+      <div class="faq__head">
+        <p class="label" data-reveal>Frequently asked questions</p>
+        <h2 data-reveal>Planning Your Stay</h2>
+        <a class="arrow" href="#faq" data-reveal>View all FAQs</a>
       </div>
-      <div class="faq__list">
+      <div class="faq__list" data-reveal>
         <details>
           <summary>Is breakfast included?</summary>
           <p>Yes. A complimentary homemade breakfast is served buffet style each morning.</p>
@@ -130,23 +143,29 @@
           <p>Yes. The inn is in the heart of downtown Spirit Lake, within walking distance of restaurants, shops, parks, and the lake shoreline.</p>
         </details>
       </div>
-      <a class="link" href="#faq">View All FAQs →</a>
     </section>
 
-    <section class="band cta" id="contact">
-      <div class="narrow">
-        <p class="script">Historic. Architectural. Renewed.</p>
-        <h2>Ready to Plan Your Trip?</h2>
-        <p>Whether you’re celebrating a special occasion, planning a romantic getaway, or exploring the beauty of North Idaho, we invite you to stay somewhere truly unforgettable. Experience the warmth of boutique hospitality, the beauty of preserved architecture, and the charm of a building that has stood at the heart of Spirit Lake for more than a century.</p>
-        <a class="btn" href="#contact">Book Your Stay Today</a>
-      </div>
+    <section class="cta" id="contact">
+      <p class="script" data-reveal>Historic. Architectural. Renewed.</p>
+      <h2 data-reveal>Ready to Plan Your Trip?</h2>
+      <p data-reveal>Whether you’re celebrating a special occasion, planning a romantic getaway, or exploring the beauty of North Idaho, we invite you to stay somewhere truly unforgettable. Experience the warmth of boutique hospitality, the beauty of preserved architecture, and the charm of a building that has stood at the heart of Spirit Lake for more than a century.</p>
+      <a class="btn" href="#contact" data-reveal>Book your stay today</a>
     </section>
   </main>
 
   <footer class="footer">
     <img src="assets/images/logo-full.png" alt="The White Gate Inn, Spirit Lake, ID" loading="lazy">
-    <a class="btn" href="#top">Back to Top</a>
-    <p>© 2026 The White Gate Inn. Historic boutique lodging in Spirit Lake, Idaho.</p>
+    <ul class="footer__links">
+      <li><a href="#our-story">Our Story</a></li>
+      <li><a href="#rooms">Rooms</a></li>
+      <li><a href="#amenities">Amenities</a></li>
+      <li><a href="#nearby">Nearby</a></li>
+      <li><a href="#faq">FAQs</a></li>
+    </ul>
+    <div class="footer__base">
+      <p>© 2026 The White Gate Inn. Historic boutique lodging in Spirit Lake, Idaho.</p>
+      <a href="#top">Back to top</a>
+    </div>
   </footer>
 
   <script src="nav.js" defer></script>
