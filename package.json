@@ -1,0 +1,11 @@
+{
+  "name": "white-gate-inn",
+  "private": true,
+  "version": "1.0.0",
+  "description": "The White Gate Inn website",
+  "scripts": {
+    "dev": "node dev-server.js",
+    "dev:sync": "node dev-server.js --pull"
+  },
+  "engines": { "node": ">=20" }
+}
