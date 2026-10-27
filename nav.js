@@ -18,13 +18,13 @@
   document.addEventListener("keydown", function (e) {
     if (e.key === "Escape") set(false);
   });
-  window.matchMedia("(min-width: 961px)").addEventListener("change", function (e) {
+  window.matchMedia("(min-width: 1201px)").addEventListener("change", function (e) {
     if (e.matches) set(false);
   });
 
   /* Clear nav over the hero, solid once the page scrolls */
   function onScroll() {
-    nav.classList.toggle("is-solid", window.scrollY > 40);
+    nav.classList.toggle("is-solid", window.scrollY > 40 || document.body.classList.contains("page"));
   }
   onScroll();
   window.addEventListener("scroll", onScroll, { passive: true });
