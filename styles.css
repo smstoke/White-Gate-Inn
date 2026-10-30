@@ -265,9 +265,6 @@ a:focus-visible,summary:focus-visible,.nav__toggle:focus-visible{outline:1px sol
 
 /* Gold accent: same tone as the "Historic. Architectural. Renewed." line */
 ::selection{background:var(--gold);color:var(--ink)}
-.label{display:inline-flex;align-items:center;gap:14px}
-.label::before{content:"";width:22px;height:1px;background:var(--gold);flex:none}
-.hero .label::before,.nearby .label::before{background:currentColor;opacity:.7}
 .arrow::after,.rows a::after{color:var(--gold)}
 .nearby .arrow::after{color:#fff}
 .rows a:hover,.arrow:hover{color:var(--ink)}
