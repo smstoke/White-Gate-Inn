@@ -9,7 +9,7 @@
   --stone:#ebe5dc;
   --ink:#1d1a17;
   --muted:rgba(29,26,23,.7);
-  --rule:rgba(29,26,23,.55);
+  --rule:#b5a083;
   --soft:rgba(29,26,23,.16);
   --gold:#b5a083;
   --nav-h:96px;
@@ -262,3 +262,27 @@ a:focus-visible,summary:focus-visible,.nav__toggle:focus-visible{outline:1px sol
 
 .credit{font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);line-height:1.5}
 .credit a{text-decoration:underline}
+
+/* Gold accent: same tone as the "Historic. Architectural. Renewed." line */
+::selection{background:var(--gold);color:var(--ink)}
+.label{display:inline-flex;align-items:center;gap:14px}
+.label::before{content:"";width:22px;height:1px;background:var(--gold);flex:none}
+.hero .label::before,.nearby .label::before{background:currentColor;opacity:.7}
+.arrow::after,.rows a::after{color:var(--gold)}
+.nearby .arrow::after{color:#fff}
+.rows a:hover,.arrow:hover{color:var(--ink)}
+.nav__links a:hover{opacity:1;color:var(--gold)}
+.nav.is-solid .nav__links a:hover,.nav.is-open .nav__links a:hover{color:#8f7a5c}
+.footer__links a:hover,.footer__base a:hover{opacity:1;color:#8f7a5c}
+.btn:hover{background:var(--gold);border-color:var(--gold);color:var(--ink)}
+.btn--ghost:hover{background:var(--gold);border-color:var(--gold);color:var(--ink)}
+.nav.is-solid .btn--ghost:hover,.nav.is-open .btn--ghost:hover{background:var(--gold);border-color:var(--gold);color:var(--ink)}
+.checklist li{display:flex;align-items:center;gap:14px}
+.checklist li::before{content:"";width:6px;height:6px;background:var(--gold);transform:rotate(45deg);flex:none}
+.timeline strong,.chapter__text strong{color:var(--gold)}
+.faq summary::after{color:var(--gold)}
+.specs dt{color:var(--ink)}
+.rooms__grid em,.story h2,.welcome__sign{color:var(--ink)}
+.seasons h3{color:var(--ink)}
+.hero__bar{border-top-color:rgba(255,255,255,.4)}
+.ph span{color:rgba(29,26,23,.5)}
