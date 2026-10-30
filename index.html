@@ -8,7 +8,8 @@
   <meta property="og:type" content="website">
   <meta property="og:title" content="The White Gate Inn | Historic B&amp;B in Spirit Lake, Idaho">
   <meta property="og:description" content="Stay at The White Gate Inn, a restored 1907 church turned boutique bed and breakfast in downtown Spirit Lake, Idaho. Rooms, suites, and complimentary breakfast.">
-  <meta property="og:image" content="assets/images/hero.jpg">
+  <meta property="og:image" content="assets/images/og-share.jpg">
+  <meta name="twitter:image" content="assets/images/og-share.jpg">
   <meta property="og:site_name" content="The White Gate Inn">
   <meta property="og:locale" content="en_US">
   <meta name="twitter:card" content="summary_large_image">
@@ -19,7 +20,7 @@
   "@type": "BedAndBreakfast",
   "name": "The White Gate Inn",
   "description": "A historic 1907 church restored into a boutique bed and breakfast in downtown Spirit Lake, Idaho.",
-  "image": "assets/images/hero.jpg",
+  "image": "assets/images/og-share.jpg",
   "address": {
     "@type": "PostalAddress",
     "addressLocality": "Spirit Lake",
@@ -56,6 +57,7 @@
   <link rel="stylesheet" href="styles.css">
 </head>
 <body id="top">
+  <a class="skip" href="#main">Skip to content</a>
 
   <header class="nav" id="nav">
     <ul class="nav__links" id="nav-links">
@@ -70,11 +72,11 @@
     <button class="nav__toggle" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="nav-links"><span></span><span></span></button>
   </header>
 
-  <main>
+  <main id="main">
     <section class="hero">
-      <img class="hero__img" src="assets/images/hero.jpg" alt="The White Gate Inn, a restored 1907 church, with its white porch and flower beds">
+      <img width="1600" height="1200" class="hero__img" src="assets/images/hero-1600.jpg" srcset="assets/images/hero-800.jpg 800w, assets/images/hero-1600.jpg 1600w" sizes="100vw" fetchpriority="high" alt="The White Gate Inn, a restored 1907 church, with its white porch and flower beds">
       <div class="hero__content">
-        <p class="label">Boutique lodging in Spirit Lake</p>
+        <p class="label">Historic bed &amp; breakfast in Spirit Lake, Idaho</p>
         <h1>Experience History Reimagined</h1>
         <p class="script">A restored landmark stay.</p>
       </div>
@@ -97,7 +99,7 @@
     </section>
 
     <section class="story" id="our-story">
-      <div class="story__img"><img src="assets/images/hero.jpg" alt="The inn’s front steps and flower beds" loading="lazy"></div>
+      <div class="story__img"><img width="1600" height="1200" src="assets/images/hero-1600.jpg" alt="The inn’s front steps and flower beds" loading="lazy"></div>
       <div class="story__panel">
         <p class="label" data-reveal>Our story</p>
         <h2 data-reveal>A Piece of Spirit Lake History</h2>
@@ -135,7 +137,7 @@
     </section>
 
     <section class="amenities" id="amenities">
-      <div class="amenities__img"><img src="assets/images/porch.jpg" alt="A rocking chair and potted geraniums on the inn’s front porch" loading="lazy"></div>
+      <div class="amenities__img"><img width="1200" height="1600" src="assets/images/porch.jpg" alt="A rocking chair and potted geraniums on the inn’s front porch" loading="lazy"></div>
       <div class="amenities__text">
         <p class="label" data-reveal>The experience</p>
         <h2 data-reveal>Where History, Architecture &amp; Hospitality Meet</h2>
@@ -150,7 +152,7 @@
     </section>
 
     <section class="nearby" id="nearby">
-      <img class="nearby__img" src="assets/images/lake-pines.jpg" alt="A quiet North Idaho lake framed by evergreen forest and distant mountains" loading="lazy">
+      <img width="1500" height="1000" class="nearby__img" src="assets/images/lake-pines.jpg" alt="A quiet North Idaho lake framed by evergreen forest and distant mountains" loading="lazy">
       <div class="nearby__text">
         <p class="label" data-reveal>Explore Spirit Lake</p>
         <h2 data-reveal>Discover the Best of North Idaho</h2>
@@ -163,7 +165,7 @@
       <div class="faq__head">
         <p class="label" data-reveal>Frequently asked questions</p>
         <h2 data-reveal>Planning Your Stay</h2>
-        <a class="arrow" href="#faq" data-reveal>View all FAQs</a>
+        <a class="arrow" href="faq.html" data-reveal>View all FAQs</a>
       </div>
       <div class="faq__list" data-reveal>
         <details>
@@ -194,13 +196,13 @@
   </main>
 
   <footer class="footer">
-    <img src="assets/images/logo-full.png" alt="The White Gate Inn, Spirit Lake, ID" loading="lazy">
+    <img width="3270" height="2120" src="assets/images/logo-full.png" alt="The White Gate Inn, Spirit Lake, ID" loading="lazy">
     <ul class="footer__links">
       <li><a href="history.html">Our Story</a></li>
       <li><a href="rooms.html">Guest Rooms</a></li>
       <li><a href="suites.html">Suites</a></li>
       <li><a href="explore.html">Explore</a></li>
-      <li><a href="index.html#faq">FAQs</a></li>
+      <li><a href="faq.html">FAQs</a></li>
     </ul>
     <div class="footer__base">
       <p>© 2026 The White Gate Inn. Historic boutique lodging in Spirit Lake, Idaho.</p>
