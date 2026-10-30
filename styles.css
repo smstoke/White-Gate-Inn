@@ -259,5 +259,6 @@ a:focus-visible,summary:focus-visible,.nav__toggle:focus-visible{outline:1px sol
 .feature img{width:100%;aspect-ratio:4/5;object-fit:cover}
 .pic-wide{display:block;width:calc(100% - 2 * var(--pad));max-width:1100px;aspect-ratio:3/2;object-fit:cover;margin:0 auto}
 .band-img img{object-position:center 55%}
-.credits{max-width:1440px;margin:0 auto;padding:0 var(--pad) 28px;font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);text-align:center;background:var(--paper)}
-.credits a{text-decoration:underline}
+
+.credit{font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);line-height:1.5}
+.credit a{text-decoration:underline}
