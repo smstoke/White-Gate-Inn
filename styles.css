@@ -253,3 +253,5 @@ a:focus-visible,summary:focus-visible,.nav__toggle:focus-visible{outline:1px sol
   .gallery .ph--g2{grid-column:1 / -1;min-height:0;aspect-ratio:4/3}
   .gallery .ph{grid-column:span 1}
 }
+
+.pair img{width:100%;aspect-ratio:4/3;object-fit:cover}
