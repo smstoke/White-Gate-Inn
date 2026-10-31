@@ -17,7 +17,7 @@
   color-scheme:light;
 }
 *{box-sizing:border-box;margin:0;padding:0}
-html{scroll-behavior:smooth;scroll-padding-top:var(--nav-h);-webkit-text-size-adjust:100%}
+html{scroll-behavior:smooth;scroll-padding-top:0;-webkit-text-size-adjust:100%}
 body{background:var(--paper);color:var(--ink);font-family:"Apfel Grotezk","Inter",sans-serif;font-size:16px;-webkit-font-smoothing:antialiased;overflow-x:hidden}
 img{display:block;max-width:100%;height:auto}
 a{color:inherit;text-decoration:none}
@@ -289,3 +289,6 @@ a:focus-visible,summary:focus-visible,.nav__toggle:focus-visible{outline:1px sol
 .faq--page{display:block;padding-top:0}
 .faq--page .faq__list{max-width:900px;margin:0 auto}
 .hero .label,.hero h1,.hero .script,.hero__bar{text-shadow:0 1px 18px rgba(20,14,8,.5)}
+
+/* Anchor landings: sections with their own top padding sit flush; full-bleed ones clear the nav */
+.story,.nearby,.amenities{scroll-margin-top:var(--nav-h)}
